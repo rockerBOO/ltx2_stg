@@ -17,4 +17,5 @@ DisplayName = "ltx2_stg"
 Icon = ""
 
 [tool.pytest.ini_options]
-addopts = "-p no:torchtyping"
+testpaths = ["tests"]
+addopts = "--import-mode=importlib --confcutdir=tests -p no:torchtyping"
