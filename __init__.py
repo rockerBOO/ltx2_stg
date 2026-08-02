@@ -34,7 +34,7 @@ import comfy.model_patcher
 import comfy.samplers
 
 _LOG = logging.getLogger("ltx2_stg")
-_DEBUG = os.environ.get("LTX2_STG_DEBUG", "1") != "0"
+_DEBUG = os.environ.get("LTX2_STG_DEBUG", "0") == "1"
 _seen = set()
 
 

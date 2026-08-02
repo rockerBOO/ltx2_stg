@@ -63,4 +63,4 @@ The tests exercise the guidance math (`_video_cut`, `_rescale`, `_identity_atten
 
 ## Debug logging
 
-Set `LTX2_STG_DEBUG=0` to silence the one-time info logs this pack emits (block-cut detection, rescale factors, CFG split points). Logging is on by default.
+Set `LTX2_STG_DEBUG=1` to enable the one-time info logs this pack emits (block-cut detection, rescale factors, CFG split points). Logging is off by default.
