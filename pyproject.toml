@@ -8,6 +8,9 @@ dependencies = []
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
 
+[project.urls]
+Repository = "https://github.com/rockerBOO/ltx2_stg"
+
 [tool.comfy]
 PublisherId = "rockerboo"
 DisplayName = "ltx2_stg"

@@ -36,7 +36,7 @@ This is a ComfyUI custom node — it needs to live inside your ComfyUI installat
 
 ```bash
 cd ComfyUI/custom_nodes
-git clone <this-repo-url> ltx2_stg
+git clone https://github.com/rockerBOO/ltx2_stg.git
 ```
 
 Restart ComfyUI. The nodes will appear under `advanced/guidance`.
