@@ -1,0 +1,2 @@
+# No extra runtime dependencies: this node pack only uses torch and comfy,
+# both of which are already provided by your ComfyUI installation.

@@ -1,0 +1,17 @@
+[project]
+name = "ltx2_stg"
+description = "LTX-2 accurate Spatio-Temporal Guidance (STG) and per-modality CFG/guidance nodes for ComfyUI"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.comfy]
+PublisherId = "rockerboo"
+DisplayName = "ltx2_stg"
+Icon = ""
+
+[tool.pytest.ini_options]
+addopts = "-p no:torchtyping"
